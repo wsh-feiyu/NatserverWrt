@@ -173,7 +173,6 @@ jobs:
           JDCloud RE-SS-01 (京东云亚瑟 AX1800 Pro) **纯上游**固件, 基于 fanchmwrt/fanchmwrt-snapshot@${{ env.UPSTREAM_SHA }} (分支 fanchmwrt-26.11, kernel 6.18)。
 
           - **轻定制**: 默认 LAN IP **192.168.100.1**; 主机名/版本名不动, 内核分区保持上游 6144k, 无第三方 feed
-          - **无 honk/dae**: 不含任何代理组件
           - **无 WiFi**: 已移除 kmod-ath11k(-ahb/-pci)、ath11k-firmware、ipq-wifi 校准、wpad、mac80211/cfg80211、iw、wireless-regdb, 仅作为有线路由使用
           - **保留 LuCI**: luci-ssl (LuCI + HTTPS), Web 管理可用
           - **常用工具**: htop / curl / dnsmasq-full / lsblk / usbutils
