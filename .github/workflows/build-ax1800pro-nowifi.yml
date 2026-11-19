@@ -71,21 +71,11 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
 
-    - name: 打无 WiFi 补丁 (移除三处强制选中的 WiFi 包)
+    - name: 打补丁 (无 WiFi + 默认 LAN IP 192.168.100.1)
       run: |
         chmod +x $NOWIFI_SH
         cd openwrt
         ../$NOWIFI_SH
-
-    - name: 修改默认 LAN IP (192.168.100.1)
-      run: |
-        cd openwrt
-        # 与 diy-part2 同款改法: config_generate 里的默认 IP 192.168.1.1 -> 192.168.100.1
-        sed -i 's/192\.168\.1\.1/192.168.100.1/g' package/base-files/files/bin/config_generate
-        if ! grep -q '192\.168\.100\.1' package/base-files/files/bin/config_generate; then
-          echo "ERROR: LAN 默认 IP 192.168.100.1 未生效" >&2; exit 1
-        fi
-        echo "OK: LAN 默认 IP -> 192.168.100.1"
 
     - name: 生成配置 (defconfig + 无 WiFi 硬校验)
       run: |

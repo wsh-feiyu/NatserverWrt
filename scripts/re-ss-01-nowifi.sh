@@ -1,5 +1,6 @@
 #!/bin/bash
-# re-ss-01-nowifi: 打源码补丁, 移除 RE-SS-01 (京东云亚瑟 AX1800 Pro) 固件里的全部 WiFi 组件
+# re-ss-01-nowifi: 打源码补丁, RE-SS-01 (京东云亚瑟 AX1800 Pro) 纯上游无 WiFi 构建
+# 作用 1: 移除固件里的全部 WiFi 组件
 # 背景: WiFi 包在 Kconfig 里是 select 强制选中, 只改 .config 关不掉, 必须动源码
 # 移除三处:
 #   1. target/linux/qualcommax/Makefile       DEFAULT_PACKAGES: kmod-ath11k-ahb / wpad-basic-mbedtls
@@ -7,12 +8,14 @@
 #   3. target/linux/qualcommax/image/ipq60xx.mk   Device/jdcloud_re-ss-01: ipq-wifi-jdcloud_re-ss-01
 # 传递依赖 (kmod-ath11k / kmod-mac80211 / kmod-cfg80211 / iw / wireless-regdb / hostapd-common)
 # 在根包移除后自动落选, 由工作流的 defconfig 硬检查兜底确认
+# 作用 2 (唯一 diy): 默认 LAN IP 192.168.1.1 -> 192.168.100.1, 与 honk 版 diy-part2 同款改法
 # 工作流调用位置: openwrt/ 目录下 (feeds install 之后、make defconfig 之前)
 set -e
 
 TMK=target/linux/qualcommax/Makefile
 TSUB=target/linux/qualcommax/ipq60xx/target.mk
 IMK=target/linux/qualcommax/image/ipq60xx.mk
+CG=package/base-files/files/bin/config_generate
 
 die() { echo "ERROR: $1" >&2; exit 1; }
 
@@ -30,6 +33,12 @@ sed -i '/ath11k-firmware-ipq6018/d' $TSUB
 
 # ===== 3. 设备定义里的校准数据包 (只动 re-ss-01 块) =====
 sed -i '/^define Device\/jdcloud_re-ss-01$/,/^TARGET_DEVICES += jdcloud_re-ss-01$/s/DEVICE_PACKAGES := ipq-wifi-jdcloud_re-ss-01/DEVICE_PACKAGES :=/' $IMK
+
+# ===== 4. 默认 LAN IP 192.168.1.1 -> 192.168.100.1 (唯一 diy) =====
+[ -f "$CG" ] || die "找不到 $CG (调用位置不对? 必须在 openwrt/ 目录下运行)"
+sed -i 's/192\.168\.1\.1/192.168.100.1/g' $CG
+grep -q '192\.168\.100\.1' $CG || die "LAN 默认 IP 192.168.100.1 未生效"
+echo "OK: LAN 默认 IP -> 192.168.100.1"
 
 # ===== 校验 (任一失败立即退出, 不浪费编译时间) =====
 fail=0
