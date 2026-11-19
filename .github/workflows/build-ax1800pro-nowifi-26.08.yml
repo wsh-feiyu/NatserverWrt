@@ -1,0 +1,196 @@
+name: Build RE-SS-01 亚瑟AX1800Pro 纯上游无WiFi (26.08)
+
+on:
+  # 仅手动触发; 纯上游基线构建, 不挂 schedule
+  workflow_dispatch:
+
+env:
+  REPO_URL: https://github.com/fanchmwrt/fanchmwrt-snapshot.git
+  REPO_BRANCH: fanchmwrt-26.08
+  CONFIG_FILE: config/re-ss-01-nowifi.config
+  NOWIFI_SH: scripts/re-ss-01-nowifi.sh
+  TZ: Asia/Shanghai
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    # 24.04 (clang 18), 内核 6.18 线, 与 26.11 相同工具链
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout 本仓库(工作流+配置)
+      uses: actions/checkout@v4
+
+    - name: 初始化编译环境
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        # 彻底释放 runner 磁盘 (保留 clang/node/runner 本体)
+        sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/share/powershell \
+          /usr/local/share/swift /usr/local/share/edge_driver /opt/hostedtoolcache \
+          /usr/local/lib/node_modules /usr/local/typescript /usr/local/go /home/linuxbrew \
+          /usr/local/.cache
+        # 24.04 的软件源是 /etc/apt/sources.list.d/ubuntu.sources (deb822), 不能整目录删,
+        # 只清掉第三方的 .list, 否则 apt-get update 会找不到任何源
+        sudo find /etc/apt/sources.list.d -maxdepth 1 -name "*.list" -delete
+        sudo docker image prune --all --force 2>/dev/null || true
+        sudo -E apt-get -qq update
+        PKGS="ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
+          bzip2 ccache clang cmake cpio curl device-tree-compiler ecj fastjar flex gawk gettext git gperf haveged \
+          help2man intltool libacl1-dev libattr1-dev libelf-dev libfuse-dev libglib2.0-dev libgmp3-dev libltdl-dev \
+          libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev libreadline-dev libssl-dev \
+          libtool libz-dev lld llvm lrzsz mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf \
+          python3 python3-pip python3-ply python3-docutils qemu-utils rsync squashfs-tools subversion \
+          swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd yasm zlib1g-dev zstd"
+        sudo -E apt-get -qq install -y $PKGS || {
+          echo "::warning::批量安装失败, 改为逐个安装并跳过 24.04 已移除的包"
+          for p in $PKGS; do sudo -E apt-get -qq install -y "$p" || echo "跳过缺失包: $p"; done
+        }
+        sudo -E apt-get -qq autoremove --purge
+        sudo -E apt-get -qq clean
+        sudo timedatectl set-timezone "$TZ"
+        df -h
+
+    - name: 克隆 fanchmwrt-snapshot 源码 (26.08)
+      run: |
+        git clone --depth 1 --branch $REPO_BRANCH $REPO_URL openwrt
+        # 确认真的在目标分支上
+        echo "===== 上游分支 / 提交 ====="
+        git -C openwrt rev-parse --abbrev-ref HEAD
+        git -C openwrt log -1 --format='%h %ad %s' --date=iso
+        echo "===== 内核 patchver (26.08 应为 6.18) ====="
+        grep -E '^KERNEL_PATCHVER' openwrt/target/linux/qualcommax/Makefile
+
+    - name: 更新并安装 feeds
+      run: |
+        cd openwrt
+        ./scripts/feeds update -a
+        ./scripts/feeds install -a
+
+    - name: 打补丁 (无 WiFi + 默认 LAN IP 192.168.100.1)
+      run: |
+        chmod +x $NOWIFI_SH
+        cd openwrt
+        ../$NOWIFI_SH
+
+    - name: 生成配置 (defconfig + 无 WiFi 硬校验)
+      run: |
+        cd openwrt
+        rm -f .config
+        cp ../$CONFIG_FILE .config
+        make defconfig
+        echo "===== defconfig 后硬检查 (任一失败立即退出, 不浪费编译时间) ====="
+        fail=0
+        check() { if ! grep -q "$1" .config; then echo "FAIL: $1"; fail=1; else echo "OK: $1"; fi; }
+        check "^CONFIG_TARGET_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y"
+        check "^CONFIG_PACKAGE_luci-ssl=y"
+        check "^CONFIG_PACKAGE_dnsmasq-full=y"
+        # dnsmasq-full 与基础版互斥, 基础版必须被关掉, 否则安装阶段数据文件冲突
+        if grep -q "^CONFIG_PACKAGE_dnsmasq=y" .config; then echo "FAIL: dnsmasq-full 与 dnsmasq 同时选中"; fail=1; else echo "OK: dnsmasq 已让位 dnsmasq-full"; fi
+        check "^CONFIG_PACKAGE_htop=y"
+        nowifi() { if grep -qE "^CONFIG_PACKAGE_$1=[ym]" .config; then echo "FAIL: $1 仍被选中"; fail=1; else echo "OK: 无 $1"; fi; }
+        # WiFi 驱动/固件/校准
+        nowifi kmod-ath11k
+        nowifi kmod-ath11k-ahb
+        nowifi kmod-ath11k-pci
+        nowifi ath11k-firmware-ipq6018
+        nowifi ath11k-firmware-ipq6010
+        nowifi ipq-wifi-jdcloud_re-ss-01
+        # 无线栈/工具 (传递依赖, 根包移除后应自动落选)
+        nowifi kmod-mac80211
+        nowifi kmod-cfg80211
+        nowifi wpad-basic-mbedtls
+        nowifi wpad-basic-openssl
+        nowifi hostapd-common
+        nowifi iw
+        nowifi wireless-regdb
+        # 纯上游断言: honk/dae 系第三方包不得出现
+        if grep -qE "^CONFIG_PACKAGE_(honk|luci-app-honk|dae|daed|luci-app-daede)=y" .config; then
+          echo "FAIL: 仍选中了 honk/dae 系第三方包"; fail=1
+        else
+          echo "OK: 纯上游, 无 honk/dae"
+        fi
+        # 纯上游断言: 内核分区保持上游 6144k (不跑 diy-part2 的 12M 补丁)
+        if sed -n '/^define Device\/jdcloud_re-ss-01$/,/^endef$/p' target/linux/qualcommax/image/ipq60xx.mk | grep -q 'KERNEL_SIZE := 6144k'; then
+          echo "OK: 内核分区保持上游 6144k"
+        else
+          echo "FAIL: KERNEL_SIZE 不是上游 6144k"; fail=1
+        fi
+        if [ "$fail" -ne 0 ]; then echo "ERROR: 无 WiFi/纯上游校验失败"; exit 1; fi
+        echo "所有关键配置校验通过"
+
+    - name: 下载源码包 (make download)
+      run: |
+        cd openwrt
+        make download -j$(nproc)
+        find dl -size -1024c -exec ls -l {} \;
+        find dl -size -1024c -exec rm -f {} \;
+
+    - name: 编译固件
+      run: |
+        cd openwrt
+        echo -e "$(nproc) thread compile"
+        make -j$(($(nproc)+1)) || make -j1 V=s
+        echo "BUILD_STATUS=success" >> $GITHUB_ENV
+
+    - name: 整理固件
+      if: env.BUILD_STATUS == 'success'
+      run: |
+        cd openwrt
+        mkdir -p ../firmware
+        # 只保留 RE-SS-01 相关固件 + manifest, 避免 artifact 过大
+        find bin/targets/qualcommax/ipq60xx/ -type f \( -name "*re-ss-01*" -o -name "*.manifest" -o -name "config.buildinfo" \) -exec cp -v {} ../firmware/ \;
+        # 只改文件名前缀 (openwrt -> fanchmwrt-nowifi), 固件内容/版本信息不动
+        cd ../firmware
+        for f in openwrt-*; do
+          [ -e "$f" ] || continue
+          new="${f/#openwrt-/fanchmwrt-nowifi-}"
+          mv -v "$f" "$new"
+        done
+        ls -lh
+
+    - name: 计算发布标识
+      if: env.BUILD_STATUS == 'success'
+      run: |
+        # tag: nowifi-26.08-v<日期>-<上游短SHA>-r<run号>
+        UP=$(git -C openwrt rev-parse HEAD)
+        echo "UPSTREAM_SHA=$UP" >> $GITHUB_ENV
+        echo "TAG=nowifi-26.08-v$(date -u +%Y%m%d)-${UP:0:7}-r${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
+
+    - name: 上传固件到 Artifact
+      uses: actions/upload-artifact@v4
+      if: env.BUILD_STATUS == 'success'
+      with:
+        name: fanchmwrt-re-ss-01-nowifi-26.08-pure
+        path: firmware/*
+
+    - name: 发布到 Release
+      if: env.BUILD_STATUS == 'success'
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ env.TAG }}
+        name: RE-SS-01 纯上游无WiFi ${{ env.TAG }} (26.08 内核6.18)
+        target_commitish: ${{ github.sha }}
+        files: firmware/*
+        body: |
+          JDCloud RE-SS-01 (京东云亚瑟 AX1800 Pro) **纯上游**固件, 基于 fanchmwrt/fanchmwrt-snapshot@${{ env.UPSTREAM_SHA }} (分支 fanchmwrt-26.08, kernel 6.18)。
+
+          - **轻定制**: 默认 LAN IP **192.168.100.1**; 主机名/版本名不动, 内核分区保持上游 6144k, 无第三方 feed
+          - **无 WiFi**: 已移除 kmod-ath11k(-ahb/-pci)、ath11k-firmware、ipq-wifi 校准、wpad、mac80211/cfg80211、iw、wireless-regdb, 仅作为有线路由使用
+          - **保留 LuCI**: luci-ssl (LuCI + HTTPS), Web 管理可用
+          - **常用工具**: htop / curl / dnsmasq-full / lsblk / usbutils
+
+          ## 刷机说明
+
+          - 不死 U-Boot HTTP 恢复模式刷 `*squashfs-factory.bin`
+          - 已刷 OpenWrt 升级: `*squashfs-sysupgrade.bin` (建议 `-n` 不保留配置)
+          - 刷完默认 LAN IP: **192.168.100.1** (LuCI: `http://192.168.100.1`)
+          - 内核分区为上游标准 6MiB; 若机器已刷 12M 大分区 U-Boot/GPT, 6MiB 内核可直接放入, 不冲突
+
+          ## 与 26.11 分支的关系
+
+          fanchmwrt-snapshot 的 26.08 分支是 26.11 之前的稳定快照, 内核 patchver 同为 6.18, qualcommax target 结构完全一致 (补丁脚本和 config 可直接复用)。26.08 可能更适合希望避开最前沿变动的用户。
