@@ -88,6 +88,10 @@ jobs:
         check() { if ! grep -q "$1" .config; then echo "FAIL: $1"; fail=1; else echo "OK: $1"; fi; }
         check "^CONFIG_TARGET_qualcommax_ipq60xx_DEVICE_jdcloud_re-ss-01=y"
         check "^CONFIG_PACKAGE_luci-ssl=y"
+        check "^CONFIG_PACKAGE_dnsmasq-full=y"
+        # dnsmasq-full 与基础版互斥, 基础版必须被关掉, 否则安装阶段数据文件冲突
+        if grep -q "^CONFIG_PACKAGE_dnsmasq=y" .config; then echo "FAIL: dnsmasq-full 与 dnsmasq 同时选中"; fail=1; else echo "OK: dnsmasq 已让位 dnsmasq-full"; fi
+        check "^CONFIG_PACKAGE_htop=y"
         nowifi() { if grep -qE "^CONFIG_PACKAGE_$1=[ym]" .config; then echo "FAIL: $1 仍被选中"; fail=1; else echo "OK: 无 $1"; fi; }
         # WiFi 驱动/固件/校准
         nowifi kmod-ath11k
@@ -168,10 +172,11 @@ jobs:
         body: |
           JDCloud RE-SS-01 (京东云亚瑟 AX1800 Pro) **纯上游**固件, 基于 fanchmwrt/fanchmwrt-snapshot@${{ env.UPSTREAM_SHA }} (分支 fanchmwrt-26.11, kernel 6.18)。
 
-          - **轻定制**: 仅把默认 LAN IP 改为 **192.168.100.1**; 主机名/版本名不动, 内核分区保持上游 6144k, 无第三方 feed
+          - **轻定制**: 默认 LAN IP **192.168.100.1**; 主机名/版本名不动, 内核分区保持上游 6144k, 无第三方 feed
           - **无 honk/dae**: 不含任何代理组件
           - **无 WiFi**: 已移除 kmod-ath11k(-ahb/-pci)、ath11k-firmware、ipq-wifi 校准、wpad、mac80211/cfg80211、iw、wireless-regdb, 仅作为有线路由使用
           - **保留 LuCI**: luci-ssl (LuCI + HTTPS), Web 管理可用
+          - **常用工具**: htop / curl / dnsmasq-full / lsblk / usbutils
 
           ## 刷机说明
 
