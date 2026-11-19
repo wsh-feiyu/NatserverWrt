@@ -77,6 +77,16 @@ jobs:
         cd openwrt
         ../$NOWIFI_SH
 
+    - name: 修改默认 LAN IP (192.168.100.1)
+      run: |
+        cd openwrt
+        # 与 diy-part2 同款改法: config_generate 里的默认 IP 192.168.1.1 -> 192.168.100.1
+        sed -i 's/192\.168\.1\.1/192.168.100.1/g' package/base-files/files/bin/config_generate
+        if ! grep -q '192\.168\.100\.1' package/base-files/files/bin/config_generate; then
+          echo "ERROR: LAN 默认 IP 192.168.100.1 未生效" >&2; exit 1
+        fi
+        echo "OK: LAN 默认 IP -> 192.168.100.1"
+
     - name: 生成配置 (defconfig + 无 WiFi 硬校验)
       run: |
         cd openwrt
@@ -168,7 +178,7 @@ jobs:
         body: |
           JDCloud RE-SS-01 (京东云亚瑟 AX1800 Pro) **纯上游**固件, 基于 fanchmwrt/fanchmwrt-snapshot@${{ env.UPSTREAM_SHA }} (分支 fanchmwrt-26.11, kernel 6.18)。
 
-          - **无 DIY**: 不改 LAN IP/主机名/版本名, 内核分区保持上游 6144k, 无第三方 feed
+          - **轻定制**: 仅把默认 LAN IP 改为 **192.168.100.1**; 主机名/版本名不动, 内核分区保持上游 6144k, 无第三方 feed
           - **无 honk/dae**: 不含任何代理组件
           - **无 WiFi**: 已移除 kmod-ath11k(-ahb/-pci)、ath11k-firmware、ipq-wifi 校准、wpad、mac80211/cfg80211、iw、wireless-regdb, 仅作为有线路由使用
           - **保留 LuCI**: luci-ssl (LuCI + HTTPS), Web 管理可用
@@ -177,4 +187,5 @@ jobs:
 
           - Web 直刷 (原厂/京东云 U-Boot): `*squashfs-factory.bin`
           - 已刷 OpenWrt 升级: `*squashfs-sysupgrade.bin`
+          - 刷完默认 LAN IP: **192.168.100.1** (LuCI: `http://192.168.100.1`)
           - 内核分区为上游标准 6MiB; 若机器已刷 12M 大分区 U-Boot/GPT, 6MiB 内核可直接放入, 不冲突
