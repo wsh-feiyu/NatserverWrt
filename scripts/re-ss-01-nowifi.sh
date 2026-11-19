@@ -49,10 +49,11 @@ BLK=$(sed -n '/^define Device\/jdcloud_re-ss-01$/,/^endef$/p' $IMK)
 if echo "$BLK" | grep -q 'ipq-wifi'; then echo "FAIL: re-ss-01 块仍有 ipq-wifi"; fail=1; else echo "OK: re-ss-01 已无 ipq-wifi"; fi
 if echo "$BLK" | grep -q 'DEVICE_PACKAGES :=$'; then echo "OK: re-ss-01 DEVICE_PACKAGES 已清空"; else echo "FAIL: re-ss-01 DEVICE_PACKAGES 未清空"; fail=1; fi
 
-# DEFAULT_PACKAGES 行连续完整性: 中间行必须仍以 \ 结尾, 最后一行无 \
-if grep -q '^	kmod-leds-gpio kmod-gpio-button-hotplug \\$' $TMK; then echo "OK: DEFAULT_PACKAGES 续行符完好"; else echo "FAIL: DEFAULT_PACKAGES 续行符被破坏"; fail=1; fi
-if grep -q '^	uboot-envtools \\$' $TMK; then echo "OK: uboot-envtools 行完好"; else echo "FAIL: uboot-envtools 行异常"; fail=1; fi
-if grep -q '^	e2fsprogs kmod-fs-ext4 losetup$' $TMK; then echo "OK: DEFAULT_PACKAGES 末行完好"; else echo "FAIL: DEFAULT_PACKAGES 末行异常"; fail=1; fi
+# DEFAULT_PACKAGES 完整性校验 (26.05 多 kmod-qca-nss-dp, 26.08+ 多 f2fsck/mkf2fs, 用关键字匹配)
+if grep -qE '^	kmod-leds-gpio kmod-gpio-button-hotplug' $TMK; then echo "OK: led/button 行存在"; else echo "FAIL: led/button 行丢失"; fail=1; fi
+if grep -q '^	uboot-envtools' $TMK; then echo "OK: uboot-envtools 行存在"; else echo "FAIL: uboot-envtools 行丢失"; fail=1; fi
+if grep -qE 'e2fsprogs.*losetup$' $TMK; then echo "OK: DEFAULT_PACKAGES 末行完好"; else echo "FAIL: DEFAULT_PACKAGES 末行异常"; fail=1; fi
+# 默认包末尾还有非 losetup 的 f2fs 工具行 (26.08+), 不算错
 
 if [ "$fail" -ne 0 ]; then echo "ERROR: 去 WiFi 补丁校验失败, 请人工检查上游结构" >&2; exit 1; fi
 
