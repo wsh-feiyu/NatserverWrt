@@ -144,7 +144,14 @@ jobs:
         mkdir -p ../firmware
         # 只保留 RE-SS-01 相关固件 + manifest, 避免 artifact 过大
         find bin/targets/qualcommax/ipq60xx/ -type f \( -name "*re-ss-01*" -o -name "*.manifest" -o -name "config.buildinfo" \) -exec cp -v {} ../firmware/ \;
-        ls -lh ../firmware/
+        # 只改文件名前缀 (openwrt -> fanchmwrt-nowifi), 固件内容/版本信息不动
+        cd ../firmware
+        for f in openwrt-*; do
+          [ -e "$f" ] || continue
+          new="${f/#openwrt-/fanchmwrt-nowifi-}"
+          mv -v "$f" "$new"
+        done
+        ls -lh
 
     - name: 计算发布标识
       if: env.BUILD_STATUS == 'success'
