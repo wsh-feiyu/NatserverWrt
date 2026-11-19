@@ -1,0 +1,1264 @@
+[2026年11月17日 GMT+8 03:39:17] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月17日 GMT+8 03:40:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月17日 GMT+8 03:40:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月17日 GMT+8 03:46:01] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月17日 GMT+8 03:46:01] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月17日 GMT+8 03:57:54] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 03:57:54] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 04:13:41] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 04:13:41] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月17日 GMT+8 04:15:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月17日 GMT+8 04:15:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月17日 GMT+8 04:18:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 04:18:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 04:18:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 04:18:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 04:18:19] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 04:25:31] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月17日 GMT+8 04:25:31] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月17日 GMT+8 04:57:58] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 04:57:58] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 05:13:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 05:13:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月17日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.130 34:55:06:af:f1:71 Z6-Pro
+[2026年11月17日 GMT+8 05:46:40] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 05:46:40] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 06:31:05] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:31:05] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:31:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:31:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 06:35:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:35:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:35:36] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:35:36] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 06:42:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 06:42:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 06:50:46] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:50:46] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:50:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:50:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 06:57:13] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:57:13] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:57:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:57:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 06:59:49] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:59:49] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:59:49] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 06:59:49] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 07:00:12] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:00:12] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:00:12] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:00:12] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:00:13] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 07:03:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:03:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:03:36] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:03:36] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 07:03:36] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 08:00:41] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月17日 GMT+8 08:00:41] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月17日 GMT+8 08:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月17日 GMT+8 08:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月17日 GMT+8 08:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 08:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 08:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 08:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 08:18:28] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.179 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.179 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.179 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.179 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:32:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.179 64:9e:31:d9:7e:47 cuco-plug-v3_mibt7E47
+[2026年11月17日 GMT+8 08:35:47] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:35:47] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.179 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:35:48] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.179 64:9e:31:d9:7e:47
+[2026年11月17日 GMT+8 08:35:48] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.179 64:9e:31:d9:7e:47 cuco-plug-v3_mibt7E47
+[2026年11月17日 GMT+8 08:37:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月17日 GMT+8 08:37:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月17日 GMT+8 08:48:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 08:48:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 08:48:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月17日 GMT+8 08:48:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月17日 GMT+8 08:49:42] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月17日 GMT+8 08:49:42] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月17日 GMT+8 09:02:39] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月17日 GMT+8 09:02:39] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月17日 GMT+8 09:05:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月17日 GMT+8 09:05:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月17日 GMT+8 09:06:12] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月17日 GMT+8 09:06:12] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月17日 GMT+8 09:22:18] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月17日 GMT+8 09:22:18] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月17日 GMT+8 09:22:52] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月17日 GMT+8 09:22:52] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月17日 GMT+8 09:24:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月17日 GMT+8 09:24:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.180 cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.180 cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.180 cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.180 cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.180 cc:da:20:80:e8:04
+[2026年11月17日 GMT+8 09:25:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.180 cc:da:20:80:e8:04 yeelink-bhf_light-v11_mibtE804
+[2026年11月17日 GMT+8 09:45:44] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月17日 GMT+8 09:45:44] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月17日 GMT+8 09:58:45] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 09:58:45] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月17日 GMT+8 09:58:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 09:58:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月17日 GMT+8 09:58:48] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 09:58:48] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月17日 GMT+8 10:18:37] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 10:18:37] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 10:18:37] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 10:18:37] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 10:18:37] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 10:25:38] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月17日 GMT+8 10:25:38] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月17日 GMT+8 10:55:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 10:55:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:00:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:00:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:04:50] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 11:04:50] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 11:04:52] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 11:04:52] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 11:04:52] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 11:04:52] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月17日 GMT+8 11:14:11] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:14:11] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:16:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:16:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:54:37] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 11:54:37] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 12:06:12] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 12:06:12] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 12:15:05] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 12:15:05] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 12:15:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 12:15:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.130 34:55:06:af:f1:71 Z6-Pro
+[2026年11月17日 GMT+8 12:18:42] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 12:18:42] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 12:18:42] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 12:18:42] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 12:18:42] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 13:00:11] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 13:00:11] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 13:15:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 13:15:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 13:25:48] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 13:25:48] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 13:49:08] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 2408:8220:4812:7ad0:6585:a2eb:2a7d:e3b7
+[2026年11月17日 GMT+8 14:00:42] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月17日 GMT+8 14:00:42] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月17日 GMT+8 14:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月17日 GMT+8 14:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月17日 GMT+8 14:12:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月17日 GMT+8 14:12:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月17日 GMT+8 14:17:41] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月17日 GMT+8 14:17:41] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月17日 GMT+8 14:26:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月17日 GMT+8 14:26:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月17日 GMT+8 14:30:45] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 2408:8220:4812:7ad0:6585:a2eb:2a7d:e3b7
+[2026年11月17日 GMT+8 14:34:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月17日 GMT+8 14:34:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月17日 GMT+8 14:37:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月17日 GMT+8 14:37:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月17日 GMT+8 14:41:04] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月17日 GMT+8 14:41:04] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月17日 GMT+8 15:06:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月17日 GMT+8 15:06:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月17日 GMT+8 15:06:33] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月17日 GMT+8 15:06:33] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月17日 GMT+8 15:08:04] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月17日 GMT+8 15:08:04] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月17日 GMT+8 15:15:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月17日 GMT+8 15:15:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月17日 GMT+8 16:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 16:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 16:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 16:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 16:18:51] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 16:25:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月17日 GMT+8 16:25:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月17日 GMT+8 16:55:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 16:55:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 17:00:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 17:00:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月17日 GMT+8 17:37:57] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 17:37:57] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 18:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 18:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 19:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 19:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 19:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 19:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 19:18:28] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 19:40:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月17日 GMT+8 19:40:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月17日 GMT+8 19:46:43] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月17日 GMT+8 19:46:43] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月17日 GMT+8 19:54:32] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月17日 GMT+8 19:54:32] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月17日 GMT+8 19:57:06] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月17日 GMT+8 19:57:06] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月17日 GMT+8 20:00:42] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月17日 GMT+8 20:00:42] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月17日 GMT+8 20:02:34] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 20:02:34] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 20:04:14] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 20:04:14] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 20:04:14] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月17日 GMT+8 20:08:38] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 20:08:38] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月17日 GMT+8 20:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月17日 GMT+8 20:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月17日 GMT+8 20:10:15] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月17日 GMT+8 20:10:15] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月17日 GMT+8 20:18:20] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 20:18:20] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 20:18:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 20:18:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 20:18:21] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 20:20:00] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月17日 GMT+8 20:20:00] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月17日 GMT+8 20:49:47] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月17日 GMT+8 20:49:47] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月17日 GMT+8 20:50:16] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月17日 GMT+8 20:50:16] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月17日 GMT+8 20:50:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月17日 GMT+8 20:50:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月17日 GMT+8 20:52:47] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月17日 GMT+8 20:52:47] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月17日 GMT+8 20:55:31] daemon.err: fwxd[3072]: Command failed: Not found
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 21:08:51] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 21:16:02] daemon.err: fwxd[3072]: Command failed: Not found
+[2026年11月17日 GMT+8 21:47:03] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 21:47:03] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 21:47:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月17日 GMT+8 21:47:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.130 34:55:06:af:f1:71 Z6-Pro
+[2026年11月17日 GMT+8 22:18:18] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:18] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:18] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:18] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:19] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 22:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:18:33] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 22:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:19:00] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 22:25:53] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月17日 GMT+8 22:25:53] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月17日 GMT+8 22:27:31] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 22:27:31] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 22:27:46] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 22:27:46] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 22:27:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 22:27:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 22:56:24] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月17日 GMT+8 22:56:24] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月17日 GMT+8 22:58:13] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:13] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:13] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 22:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月17日 GMT+8 22:58:27] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月17日 GMT+8 23:05:21] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:05:21] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:05:21] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:05:21] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:13:42] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 23:13:42] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月17日 GMT+8 23:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:19:00] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:21:00] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:21:00] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:21:00] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:21:00] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:39:03] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:39:03] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:39:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:39:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:39:26] daemon.warn: dnsmasq[1]: ignoring query from non-local network 2409:8949:489f:1005:f091:ccff:fea5:b52e (logged only once)
+[2026年11月17日 GMT+8 23:41:21] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:41:21] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:41:21] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:41:21] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:42:08] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:42:08] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:42:08] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:42:08] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:43:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:43:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:43:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:43:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:43:52] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 23:43:52] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 23:43:52] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月17日 GMT+8 23:43:52] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月17日 GMT+8 23:44:07] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:44:07] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:44:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:44:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月17日 GMT+8 23:57:53] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:57:53] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:57:53] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月17日 GMT+8 23:57:53] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 00:08:18] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: cn.ntp.org.cn
+[2026年11月18日 GMT+8 00:17:20] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:17:20] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:17:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:17:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 00:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:18:28] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:18:28] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 00:19:22] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:19:22] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 00:19:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:19:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 00:22:15] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:22:15] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:22:15] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 00:22:15] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 00:57:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:57:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:57:36] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:57:36] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 00:57:36] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 01:14:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月18日 GMT+8 01:14:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月18日 GMT+8 01:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 01:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 01:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 01:18:32] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 01:18:32] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 01:20:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月18日 GMT+8 01:20:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月18日 GMT+8 01:20:49] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月18日 GMT+8 01:20:49] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月18日 GMT+8 01:23:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月18日 GMT+8 01:23:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月18日 GMT+8 01:39:16] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月18日 GMT+8 01:39:16] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月18日 GMT+8 02:00:38] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 02:00:38] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 02:00:38] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 02:00:38] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 02:00:38] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 02:00:43] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月18日 GMT+8 02:00:43] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月18日 GMT+8 02:00:56] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月18日 GMT+8 02:00:56] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月18日 GMT+8 02:08:42] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 02:08:42] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 02:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月18日 GMT+8 02:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月18日 GMT+8 02:12:25] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月18日 GMT+8 02:12:25] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月18日 GMT+8 02:35:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月18日 GMT+8 02:35:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月18日 GMT+8 02:35:58] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月18日 GMT+8 02:35:58] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月18日 GMT+8 02:38:34] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月18日 GMT+8 02:38:34] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月18日 GMT+8 02:48:08] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 02:48:08] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 02:48:08] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 02:48:08] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 04:26:01] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月18日 GMT+8 04:26:01] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月18日 GMT+8 04:29:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 04:29:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 04:54:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月18日 GMT+8 04:54:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月18日 GMT+8 04:58:14] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:14] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:14] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:14] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:14] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 04:58:38] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:38] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:38] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:38] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 04:58:39] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 05:00:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:00:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:00:36] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:00:36] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:00:36] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.130 34:55:06:af:f1:71 Z6-Pro
+[2026年11月18日 GMT+8 05:58:05] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:58:05] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:58:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:58:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 05:58:05] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 06:01:52] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 06:01:52] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 06:01:52] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 06:01:52] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 06:01:52] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 06:22:16] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 06:22:16] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 06:32:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月18日 GMT+8 06:32:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月18日 GMT+8 06:40:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 06:40:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月18日 GMT+8 06:50:51] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月18日 GMT+8 06:50:51] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月18日 GMT+8 06:53:38] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月18日 GMT+8 06:53:38] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月18日 GMT+8 06:55:48] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月18日 GMT+8 06:55:48] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月18日 GMT+8 06:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 06:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 06:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 06:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 07:16:18] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月18日 GMT+8 07:16:18] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月18日 GMT+8 07:42:30] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月18日 GMT+8 07:42:30] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月18日 GMT+8 07:47:25] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月18日 GMT+8 07:47:25] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月18日 GMT+8 08:00:43] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月18日 GMT+8 08:00:43] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月18日 GMT+8 08:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月18日 GMT+8 08:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月18日 GMT+8 08:20:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月18日 GMT+8 08:20:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月18日 GMT+8 08:21:51] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月18日 GMT+8 08:21:51] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月18日 GMT+8 08:24:37] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月18日 GMT+8 08:24:37] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月18日 GMT+8 08:48:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 08:48:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 09:57:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 09:57:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 09:58:17] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:17] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:17] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:17] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:17] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 09:58:30] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:30] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:30] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:30] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 09:58:30] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 10:18:59] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:18:59] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:18:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:18:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:19:00] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 10:19:13] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:19:13] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:19:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:19:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 10:19:13] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 10:26:08] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月18日 GMT+8 10:26:08] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月18日 GMT+8 10:51:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月18日 GMT+8 10:51:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月18日 GMT+8 11:12:13] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月18日 GMT+8 11:50:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月18日 GMT+8 11:50:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月18日 GMT+8 12:00:14] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 12:00:14] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 12:00:14] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 12:00:14] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 12:00:14] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 12:13:09] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月18日 GMT+8 12:13:09] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月18日 GMT+8 12:15:14] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月18日 GMT+8 12:15:14] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月18日 GMT+8 12:30:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月18日 GMT+8 12:30:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月18日 GMT+8 12:53:18] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月18日 GMT+8 12:53:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月18日 GMT+8 12:53:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月18日 GMT+8 13:10:34] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月18日 GMT+8 13:10:34] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月18日 GMT+8 13:23:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月18日 GMT+8 13:23:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月18日 GMT+8 14:00:43] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月18日 GMT+8 14:00:43] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月18日 GMT+8 14:05:12] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月18日 GMT+8 14:05:12] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月18日 GMT+8 14:07:51] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月18日 GMT+8 14:07:51] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月18日 GMT+8 14:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月18日 GMT+8 14:08:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月18日 GMT+8 14:10:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 14:10:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 14:10:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月18日 GMT+8 14:10:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月18日 GMT+8 14:25:22] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月18日 GMT+8 14:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 14:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 14:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 14:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 14:58:23] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 15:00:27] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:27] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:27] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 15:00:40] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:40] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:41] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:41] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:41] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 15:00:52] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:52] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:52] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:52] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:00:52] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 15:16:58] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 15:16:58] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 15:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:18:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 15:18:50] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 15:21:59] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月18日 GMT+8 16:26:16] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月18日 GMT+8 16:26:16] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月18日 GMT+8 16:49:32] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月18日 GMT+8 16:49:32] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月18日 GMT+8 17:21:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月18日 GMT+8 17:21:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月18日 GMT+8 17:44:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4
+[2026年11月18日 GMT+8 17:44:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.178 cc:b5:d1:de:24:a4 rk3308_robot32
+[2026年11月18日 GMT+8 17:48:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月18日 GMT+8 17:48:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月18日 GMT+8 18:04:34] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月18日 GMT+8 18:04:34] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月18日 GMT+8 18:27:21] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月18日 GMT+8 18:27:21] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月18日 GMT+8 18:45:17] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月18日 GMT+8 18:45:17] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月18日 GMT+8 19:05:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月18日 GMT+8 19:05:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月18日 GMT+8 19:27:16] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 19:27:16] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月18日 GMT+8 19:50:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月18日 GMT+8 19:50:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月18日 GMT+8 19:53:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月18日 GMT+8 19:53:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月18日 GMT+8 19:56:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月18日 GMT+8 19:56:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月18日 GMT+8 20:00:17] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:00:17] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:00:17] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:00:17] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:00:17] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 20:00:44] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月18日 GMT+8 20:00:44] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月18日 GMT+8 20:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月18日 GMT+8 20:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月18日 GMT+8 20:32:43] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 20:32:43] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:48:09] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 20:50:20] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:50:20] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:50:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 20:50:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 20:54:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:36] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:36] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:39] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:39] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:39] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月18日 GMT+8 20:54:39] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月18日 GMT+8 20:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:26] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 20:58:39] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:39] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:39] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:39] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 20:58:39] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 21:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 30:32:35:07:c8:e2
+[2026年11月18日 GMT+8 21:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.154 30:32:35:07:c8:e2
+[2026年11月18日 GMT+8 21:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 30:32:35:07:c8:e2
+[2026年11月18日 GMT+8 21:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.154 30:32:35:07:c8:e2
+[2026年11月18日 GMT+8 21:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.154 30:32:35:07:c8:e2
+[2026年11月18日 GMT+8 21:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.154 30:32:35:07:c8:e2
+[2026年11月18日 GMT+8 21:16:21] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:16:21] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:16:21] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:16:21] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:16:21] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 21:26:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:26:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:26:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:26:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 21:28:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:28:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:28:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:28:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 21:47:06] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 21:47:06] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 21:47:06] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 21:47:06] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 21:47:06] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月18日 GMT+8 21:47:06] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.130 34:55:06:af:f1:71 Z6-Pro
+[2026年11月18日 GMT+8 21:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 21:58:32] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 21:59:10] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:10] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 21:59:34] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:34] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:34] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:34] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 21:59:45] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:45] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:45] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76
+[2026年11月18日 GMT+8 21:59:45] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.132 ba:8b:d2:3e:89:76 Xiaomi-17-Ultra
+[2026年11月18日 GMT+8 22:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:00:47] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 22:26:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月18日 GMT+8 22:26:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月18日 GMT+8 22:46:57] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月18日 GMT+8 22:46:57] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月18日 GMT+8 22:57:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月18日 GMT+8 22:57:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月18日 GMT+8 22:58:47] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:58:47] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:58:47] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:58:47] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 22:58:47] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 23:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:02:01] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 23:07:51] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.215
+[2026年11月18日 GMT+8 23:08:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月18日 GMT+8 23:08:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月18日 GMT+8 23:19:03] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:19:03] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:19:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:19:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:19:04] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月18日 GMT+8 23:24:05] authpriv.info: dropbear[20288]: Child connection from 192.168.100.215:60292
+[2026年11月18日 GMT+8 23:24:17] authpriv.notice: dropbear[20288]: Password auth succeeded for 'root' from 192.168.100.215:60292
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] bandix v0.12.12 started
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Host: NatserverWrt (uid=0, gid=0)
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OS: linux
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Kernel: Linux 6.12.89
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Arch: aarch64
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] CPU: Unknown CPU (4 cores)
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Memory: 403 MiB
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Load: 0.44 0.46 0.52
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Working directory: /
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Listening address: 127.0.0.1:8686
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Data directory: /usr/share/bandix
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Log level: info
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Retention seconds: 600
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Interface: br-lan (IP: 192.168.100.1, Mask: 255.255.255.0)
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] Enabled monitoring modules (3):
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system]   • Traffic monitoring (retention: 600s)
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system]   • DNS monitoring
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system]   • Connection statistics monitoring
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OpenWrt identifiers (/etc/os-release):
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_BOARD="qualcommax/ipq60xx"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_ARCH="aarch64_cortex-a53"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_TAINTS="no-all"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_DEVICE_MANUFACTURER="OpenWrt"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_DEVICE_MANUFACTURER_URL="https://openwrt.org/"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_DEVICE_PRODUCT="Generic"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_DEVICE_REVISION="v0"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_RELEASE="NatserverWrt SNAPSHOT r0-2c8fa41"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::system] OPENWRT_BUILD_DATE="1790039515"
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::command] Loading shared eBPF programs (ingress and egress)...
+[2026年11月18日 GMT+8 23:33:31] daemon.info: bandix[24269]: [INFO  bandix::ebpf::shared] Loading shared eBPF programs for interface br-lan with TC order default (requested backend: auto, resolved backend: tcx)
+[2026年11月18日 GMT+8 23:33:32] daemon.info: bandix[24269]: [INFO  bandix::ebpf::shared] Shared ingress program successfully attached to br-lan
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::ebpf::shared] Shared egress program successfully attached to br-lan
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::ebpf::shared] Shared eBPF programs loaded and attached. DNS and traffic modules share the same ingress and egress hooks.
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::ebpf::shared] TC backend options: tcx_anchor_ingress_id=none,tcx_anchor_egress_id=none
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Configuring subnet info maps for traffic module...
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Configured IPv4 subnet 0: 192.168.100.1/255.255.255.0 (interface subnet)
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Configured IPv6 subnet 0: fda2:2660:1f23::1/60 [Type: ULA, Network: LAN]
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Configured IPv6 subnet 1: 2409:8a44:****:****:****:****:****:1/64 [Type: GUA, Network: WAN]
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Configured IPv6 subnet 2: fe80::ded8:7cff:fe25:58be/64 [Type: Link-Local, Network: LAN]
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Configuring module enable flags...
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Traffic module enabled: true
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] DNS module enabled: true
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Acquiring DNS RingBuf map...
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Initializing traffic module...
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Initializing DNS module...
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::command] Initializing connection module...
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::monitor] Restored 30 offline devices from ring files
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::storage::traffic] Restored 30 accumulator(s) from previous session (213 seconds ago)
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::monitor] Restored baseline for 30 devices from persistent storage
+[2026年11月18日 GMT+8 23:33:33] daemon.info: bandix[24269]: [INFO  bandix::web] HTTP server listening on 127.0.0.1:8686
+[2026年11月18日 GMT+8 23:38:40] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月18日 GMT+8 23:38:40] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月18日 GMT+8 23:41:47] kern.info: [229362.874759] remoteproc remoteproc0: stopped remote processor cd00000.remoteproc
+[2026年11月18日 GMT+8 23:46:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月18日 GMT+8 23:46:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月18日 GMT+8 23:50:52] daemon.err: hostapd: rmdir[ctrl_interface=/var/run/hostapd]: Permission denied
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262): wifi-scripts: Tearing down phy0
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262): In /usr/share/hostap/wdev.uc, line 182, byte 14:
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262):
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262):  `phy = phydev.phy;`
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262):   Near here ---^
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262):
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio0 (31262):
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264): wifi-scripts: Tearing down phy1
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264): In /usr/share/hostap/wdev.uc, line 182, byte 14:
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264):
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264):  `phy = phydev.phy;`
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264):   Near here ---^
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264):
+[2026年11月18日 GMT+8 23:50:52] daemon.notice: netifd: radio1 (31264):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31266):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31269):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31272): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31273): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31274):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31277):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31278): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio1 (31279): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):
+[2026年11月18日 GMT+8 23:50:53] daemon.notice: netifd: radio0 (31280):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31281):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31282): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31283): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31284):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285): Reference error: left-hand side expression is null
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285): In __find_phy_by_path(), file /usr/share/ucode/wifi/utils.uc, line 31, byte 21:
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):   called from function find_phy_by_path (/usr/share/ucode/wifi/utils.uc:69:42)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):   called from function find_phy (/usr/share/ucode/wifi/utils.uc:109:43)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):   called from function setup (./mac80211.sh:163:39)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):   called from anonymous function (./mac80211.sh:341:14)
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):  `    return phys[+path[1]];`
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):   Near here -------------^
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31285):
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio0 (31286): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:50:54] daemon.notice: netifd: radio1 (31288): wifi-scripts: Bug: PHY is undefined for device
+[2026年11月18日 GMT+8 23:57:01] authpriv.info: dropbear[20288]: Exit (root) from <192.168.100.215:60292>: Exited normally
+[2026年11月18日 GMT+8 23:58:04] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:58:04] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:58:04] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:58:04] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月18日 GMT+8 23:58:04] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 00:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:00:47] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:00:47] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 00:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:01:01] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 00:01:01] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 00:20:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月19日 GMT+8 00:20:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月19日 GMT+8 00:46:11] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月19日 GMT+8 00:46:11] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月19日 GMT+8 01:01:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 01:01:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 01:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:02:01] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:02:01] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 01:34:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月19日 GMT+8 01:34:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月19日 GMT+8 01:39:28] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月19日 GMT+8 01:39:28] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月19日 GMT+8 01:42:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月19日 GMT+8 01:42:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月19日 GMT+8 01:58:50] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:58:50] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:58:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:58:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 01:58:50] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 02:00:44] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月19日 GMT+8 02:00:44] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月19日 GMT+8 02:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月19日 GMT+8 02:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月19日 GMT+8 02:09:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月19日 GMT+8 02:09:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月19日 GMT+8 02:48:04] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 02:48:04] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 02:48:04] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 02:48:04] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 02:56:18] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 88:b9:51:eb:f9:eb
+[2026年11月19日 GMT+8 02:56:18] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月19日 GMT+8 02:56:18] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月19日 GMT+8 02:56:18] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月19日 GMT+8 02:57:25] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 02:57:25] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 02:57:25] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 02:57:25] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 02:57:26] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 03:37:48] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 03:37:48] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 03:37:48] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 03:37:48] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 03:37:48] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 04:01:07] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:01:07] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:01:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:01:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:01:08] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 04:18:56] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:18:56] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:18:56] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:18:56] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:18:56] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 04:26:31] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月19日 GMT+8 04:26:31] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月19日 GMT+8 04:32:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月19日 GMT+8 04:32:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月19日 GMT+8 04:36:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月19日 GMT+8 04:36:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月19日 GMT+8 04:44:51] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月19日 GMT+8 04:44:51] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月19日 GMT+8 04:59:03] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:59:03] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:59:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:59:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 04:59:03] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 04:59:31] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月19日 GMT+8 04:59:31] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月19日 GMT+8 05:18:25] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月19日 GMT+8 05:18:25] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月19日 GMT+8 05:20:13] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:20:13] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:20:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:20:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:20:13] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 34:55:06:af:f1:71
+[2026年11月19日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月19日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.130 34:55:06:af:f1:71
+[2026年11月19日 GMT+8 05:36:29] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.130 34:55:06:af:f1:71 Z6-Pro
+[2026年11月19日 GMT+8 05:50:33] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月19日 GMT+8 05:50:33] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月19日 GMT+8 05:57:33] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:57:33] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:57:33] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:57:33] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:57:33] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 05:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:58:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 05:58:23] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 06:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:19:07] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 06:27:39] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月19日 GMT+8 06:27:39] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月19日 GMT+8 06:40:03] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb
+[2026年11月19日 GMT+8 06:40:03] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.215 88:b9:51:eb:f9:eb Xiaomi-17-Pro-Max
+[2026年11月19日 GMT+8 06:58:08] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:58:08] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:58:08] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:58:08] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 06:58:09] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 07:20:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月19日 GMT+8 07:20:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月19日 GMT+8 07:25:18] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.215
+[2026年11月19日 GMT+8 07:25:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月19日 GMT+8 07:25:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月19日 GMT+8 07:28:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月19日 GMT+8 07:28:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月19日 GMT+8 07:31:13] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月19日 GMT+8 07:31:13] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月19日 GMT+8 07:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 07:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 07:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 07:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 07:57:26] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 08:00:45] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月19日 GMT+8 08:00:45] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 3c:cd:57:39:92:08
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.216 3c:cd:57:39:92:08
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 3c:cd:57:39:92:08
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.216 3c:cd:57:39:92:08
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.216 3c:cd:57:39:92:08
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.216 3c:cd:57:39:92:08 MiAiSoundbox-L05C
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.216 3c:cd:57:39:92:08
+[2026年11月19日 GMT+8 08:02:20] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.216 3c:cd:57:39:92:08 MiAiSoundbox-L05C
+[2026年11月19日 GMT+8 08:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月19日 GMT+8 08:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月19日 GMT+8 08:48:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 08:48:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 08:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:26] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 08:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:57:50] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 08:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:06] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:06] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 08:58:19] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:19] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:19] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 08:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:32] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:33] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 08:58:45] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:45] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:45] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:45] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 08:58:45] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:01:55] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:01:55] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:01:55] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:01:55] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:01:56] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:16:30] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:16:30] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:16:30] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:16:30] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:16:31] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:26] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:57:50] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:58:14] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:14] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:15] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:15] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:15] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:58:28] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:28] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:28] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:28] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:28] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 09:58:41] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:41] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:41] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:41] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 09:58:41] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 10:00:33] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:00:33] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:00:33] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:00:33] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:00:34] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 10:04:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月19日 GMT+8 10:04:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月19日 GMT+8 10:11:18] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月19日 GMT+8 10:11:18] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月19日 GMT+8 10:26:38] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月19日 GMT+8 10:26:38] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月19日 GMT+8 10:28:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月19日 GMT+8 10:28:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月19日 GMT+8 10:42:36] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月19日 GMT+8 10:42:36] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月19日 GMT+8 10:51:39] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月19日 GMT+8 10:52:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月19日 GMT+8 10:52:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月19日 GMT+8 10:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:57:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 10:57:26] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 11:25:33] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.3 70:85:c2:77:3e:fe
+[2026年11月19日 GMT+8 11:25:33] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.3 70:85:c2:77:3e:fe FNAS
+[2026年11月19日 GMT+8 11:58:51] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 11:58:51] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 11:58:51] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 11:58:51] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 11:58:51] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 12:02:05] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:02:05] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:02:05] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:02:05] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:02:05] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 12:09:04] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd
+[2026年11月19日 GMT+8 12:09:04] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.239 a0:68:1c:ba:a8:cd MAS8710BNA8CD
+[2026年11月19日 GMT+8 12:10:54] user.info: upgrade: Saving config files...
+[2026年11月19日 GMT+8 12:14:59] user.notice: daed-init: stop: begin
+[2026年11月19日 GMT+8 12:14:59] user.notice: daed-init: stop: pre-stop state — bpf_pin_entries=[none] netns_left=[none]
+[2026年11月19日 GMT+8 12:15:29] user.info: upgrade: Saving config files...
+[2026年11月19日 GMT+8 12:53:00] authpriv.info: dispatcher.uc: luci: accepted login on /admin/network/firewall/rules for root from 192.168.100.3
+[2026年11月19日 GMT+8 12:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 12:57:27] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 12:59:58] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月19日 GMT+8 12:59:58] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.158 84:7c:9b:ee:7e:85
+[2026年11月19日 GMT+8 13:05:11] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d
+[2026年11月19日 GMT+8 13:05:11] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.169 a0:68:1c:b6:8e:1d MAS8710BN8E1D
+[2026年11月19日 GMT+8 13:11:19] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c
+[2026年11月19日 GMT+8 13:11:19] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.196 a0:68:1c:0b:05:7c MAS8710BN057C
+[2026年11月19日 GMT+8 13:14:23] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.102 a0:68:1c:03:24:fb
+[2026年11月19日 GMT+8 13:14:23] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.102 a0:68:1c:03:24:fb MAS8710BN24FB
+[2026年11月19日 GMT+8 13:27:16] authpriv.info: dropbear[18036]: Child connection from 192.168.100.3:37038
+[2026年11月19日 GMT+8 13:27:16] authpriv.notice: dropbear[18036]: Password auth succeeded for 'root' from 192.168.100.3:37038
+[2026年11月19日 GMT+8 13:28:38] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月19日 GMT+8 13:37:06] authpriv.info: dropbear[18036]: Exit (root) from <192.168.100.3:37038>: Exited normally
+[2026年11月19日 GMT+8 13:37:16] authpriv.info: dropbear[22428]: Child connection from 192.168.100.3:38678
+[2026年11月19日 GMT+8 13:37:16] authpriv.notice: dropbear[22428]: Password auth succeeded for 'root' from 192.168.100.3:38678
+[2026年11月19日 GMT+8 13:51:40] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月19日 GMT+8 13:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 13:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 13:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 13:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 13:57:27] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 14:00:45] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.246 54:ef:44:2c:a9:06
+[2026年11月19日 GMT+8 14:00:45] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.246 54:ef:44:2c:a9:06 lumi_gateway_mgl03
+[2026年11月19日 GMT+8 14:04:49] user.info: upgrade: Saving config files...
+[2026年11月19日 GMT+8 14:07:17] authpriv.info: dropbear[22428]: Exit (root) from <192.168.100.3:38678>: Exited normally
+[2026年11月19日 GMT+8 14:07:17] authpriv.info: dropbear[5270]: Child connection from 192.168.100.3:39422
+[2026年11月19日 GMT+8 14:07:17] authpriv.notice: dropbear[5270]: Password auth succeeded for 'root' from 192.168.100.3:39422
+[2026年11月19日 GMT+8 14:07:41] authpriv.info: dropbear[5270]: Exit (root) from <192.168.100.3:39422>: Exited normally
+[2026年11月19日 GMT+8 14:07:45] user.info: upgrade: Saving config files...
+[2026年11月19日 GMT+8 14:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.170 a0:68:1c:0c:45:07
+[2026年11月19日 GMT+8 14:08:56] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.170 a0:68:1c:0c:45:07 midea
+[2026年11月19日 GMT+8 14:23:10] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 14:23:10] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.225 cc:d8:43:e7:fa:f1
+[2026年11月19日 GMT+8 15:01:26] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:01:26] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:01:26] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:01:26] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:01:27] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 15:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:19:07] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:19:07] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 15:34:50] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d
+[2026年11月19日 GMT+8 15:34:50] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.223 2c:37:c5:2c:02:4d uplus-haier-0128-024d-v5-sapz
+[2026年11月19日 GMT+8 15:37:59] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.140 38:2c:e5:59:1b:75
+[2026年11月19日 GMT+8 15:37:59] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.140 38:2c:e5:59:1b:75 lwip0
+[2026年11月19日 GMT+8 15:45:37] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.109 54:48:e6:c9:91:91
+[2026年11月19日 GMT+8 15:45:37] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.109 54:48:e6:c9:91:91 chuangmi-plug-212a01_mibt9191
+[2026年11月19日 GMT+8 15:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:57:27] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:57:27] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 15:59:21] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:59:21] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:59:21] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:59:21] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 15:59:21] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 16:01:22] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:01:22] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:01:22] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:01:22] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:01:22] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 16:03:27] authpriv.info: dispatcher.uc: luci: accepted login on / for root from 192.168.100.3
+[2026年11月19日 GMT+8 16:19:33] daemon.info: dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:19:33] daemon.info: dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:19:33] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:19:33] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.118 08:54:bb:c8:df:7e
+[2026年11月19日 GMT+8 16:19:33] daemon.warn: dnsmasq[1]: possible DNS-rebind attack detected: aaa.cbntv.net.cn
+[2026年11月19日 GMT+8 16:23:32] authpriv.info: dropbear[20734]: Child connection from 192.168.100.3:52344
+[2026年11月19日 GMT+8 16:23:32] authpriv.notice: dropbear[20734]: Password auth succeeded for 'root' from 192.168.100.3:52344
+[2026年11月19日 GMT+8 16:26:46] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8
+[2026年11月19日 GMT+8 16:26:46] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.110 cc:d8:43:81:e7:d8 MiWiFi-RD03
+[2026年11月19日 GMT+8 16:29:28] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1
+[2026年11月19日 GMT+8 16:29:28] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.204 a8:40:7d:17:a5:d1 asrwifi
+[2026年11月19日 GMT+8 16:31:23] kern.info: [289938.589477] EXT4-fs (mmcblk0p27): recovery complete
+[2026年11月19日 GMT+8 16:31:23] kern.info: [289938.589685] EXT4-fs (mmcblk0p27): mounted filesystem f1f9f0a4-88b4-4549-955c-44313050f9b3 r/w with ordered data mode. Quota mode: disabled.
+[2026年11月19日 GMT+8 16:33:41] authpriv.info: dropbear[20734]: Exit (root) from <192.168.100.3:52344>: Exited normally
+[2026年11月19日 GMT+8 16:33:41] authpriv.info: dropbear[25640]: Child connection from 192.168.100.3:40486
+[2026年11月19日 GMT+8 16:33:41] authpriv.notice: dropbear[25640]: Password auth succeeded for 'root' from 192.168.100.3:40486
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] bandix v0.12.12 started
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Host: NatserverWrt (uid=0, gid=0)
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OS: linux
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Kernel: Linux 6.12.89
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Arch: aarch64
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] CPU: Unknown CPU (4 cores)
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Memory: 403 MiB
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Load: 0.15 0.33 0.41
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Working directory: /
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Listening address: 127.0.0.1:8686
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Data directory: /usr/share/bandix
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Log level: info
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Retention seconds: 600
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Interface: br-lan (IP: 192.168.100.1, Mask: 255.255.255.0)
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] Enabled monitoring modules (3):
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system]   • Traffic monitoring (retention: 600s)
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system]   • DNS monitoring
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system]   • Connection statistics monitoring
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OpenWrt identifiers (/etc/os-release):
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_BOARD="qualcommax/ipq60xx"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_ARCH="aarch64_cortex-a53"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_TAINTS="no-all"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_DEVICE_MANUFACTURER="OpenWrt"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_DEVICE_MANUFACTURER_URL="https://openwrt.org/"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_DEVICE_PRODUCT="Generic"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_DEVICE_REVISION="v0"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_RELEASE="NatserverWrt SNAPSHOT r0-2c8fa41"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::system] OPENWRT_BUILD_DATE="1790039515"
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::command] Loading shared eBPF programs (ingress and egress)...
+[2026年11月19日 GMT+8 16:35:10] daemon.info: bandix[27327]: [INFO  bandix::ebpf::shared] Loading shared eBPF programs for interface br-lan with TC order default (requested backend: auto, resolved backend: tcx)
+[2026年11月19日 GMT+8 16:35:11] daemon.info: bandix[27327]: [INFO  bandix::ebpf::shared] Shared ingress program successfully attached to br-lan
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::ebpf::shared] Shared egress program successfully attached to br-lan
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::ebpf::shared] Shared eBPF programs loaded and attached. DNS and traffic modules share the same ingress and egress hooks.
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::ebpf::shared] TC backend options: tcx_anchor_ingress_id=none,tcx_anchor_egress_id=none
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Configuring subnet info maps for traffic module...
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Configured IPv4 subnet 0: 192.168.100.1/255.255.255.0 (interface subnet)
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Configured IPv6 subnet 0: fda2:2660:1f23::1/60 [Type: ULA, Network: LAN]
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Configured IPv6 subnet 1: 2409:8a44:****:****:****:****:****:1/64 [Type: GUA, Network: WAN]
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Configured IPv6 subnet 2: fe80::ded8:7cff:fe25:58be/64 [Type: Link-Local, Network: LAN]
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Configuring module enable flags...
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Traffic module enabled: true
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] DNS module enabled: true
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Acquiring DNS RingBuf map...
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Initializing traffic module...
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Initializing DNS module...
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::command] Initializing connection module...
+[2026年11月19日 GMT+8 16:35:12] daemon.info: bandix[27327]: [INFO  bandix::monitor] Restored 30 offline devices from ring files
+[2026年11月19日 GMT+8 16:35:13] daemon.info: bandix[27327]: [INFO  bandix::storage::traffic] Restored 30 accumulator(s) from previous session (312 seconds ago)
+[2026年11月19日 GMT+8 16:35:13] daemon.info: bandix[27327]: [INFO  bandix::monitor] Restored baseline for 30 devices from persistent storage
+[2026年11月19日 GMT+8 16:35:13] daemon.info: bandix[27327]: [INFO  bandix::web] HTTP server listening on 127.0.0.1:8686
+[2026年11月19日 GMT+8 16:40:18] daemon.info: dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.100.226 54:48:e6:43:71:00
+[2026年11月19日 GMT+8 16:40:18] daemon.info: dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.100.226 54:48:e6:43:71:00 ESP_437100
+[2026年11月19日 GMT+8 16:42:24] user.info: upgrade: Saving config files...
+[2026年11月19日 GMT+8 16:50:08] authpriv.info: dropbear[25640]: Exit (root) from <192.168.100.3:40486>: Exited normally
+[2026年11月19日 GMT+8 16:50:08] authpriv.info: dropbear[4928]: Child connection from 192.168.100.3:53560
+[2026年11月19日 GMT+8 16:50:09] authpriv.notice: dropbear[4928]: Password auth succeeded for 'root' from 192.168.100.3:53560
+[2026年11月19日 GMT+8 16:53:54] authpriv.info: dispatcher.uc: luci: accepted login on /admin/status/overview for root from 192.168.100.3
