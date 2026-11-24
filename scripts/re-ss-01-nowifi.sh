@@ -9,6 +9,10 @@
 # 传递依赖 (kmod-ath11k / kmod-mac80211 / kmod-cfg80211 / iw / wireless-regdb / hostapd-common)
 # 在根包移除后自动落选, 由工作流的 defconfig 硬检查兜底确认
 # 作用 2 (唯一 diy): 默认 LAN IP 192.168.1.1 -> 192.168.100.1, 与 honk 版 diy-part2 同款改法
+# 作用 3: ucode ubus 请求原型泄漏 backport (fanchmwrt issue #48)
+#         ucode < 2026-09-10 每次_ubus_请求泄漏 ~4.2KB (netifd 实测 ~36MB/天), OOM 后
+#         odhcp6c 孤儿占住 ubus 对象名, wan_6 (IPv6) 永久失效。补入上游
+#         c404fe2d + fbdd169e; 26.11/openwrt-main (pin dfc64d41) 已含修复, 按日期自动跳过
 # 工作流调用位置: openwrt/ 目录下 (feeds install 之后、make defconfig 之前)
 set -e
 
@@ -39,6 +43,33 @@ sed -i '/^define Device\/jdcloud_re-ss-01$/,/^TARGET_DEVICES += jdcloud_re-ss-01
 sed -i 's/192\.168\.1\.1/192.168.100.1/g' $CG
 grep -q '192\.168\.100\.1' $CG || die "LAN 默认 IP 192.168.100.1 未生效"
 echo "OK: LAN 默认 IP -> 192.168.100.1"
+
+# ===== 5. ucode ubus 请求原型泄漏 backport (fanchmwrt issue #48) =====
+# 上游修复: c404fe2d (types: per-instance prototype support, 前置) +
+#           fbdd169e (ubus: store per-call request proto in instance proto slot)
+# 补丁文件在本仓库 patches/ucode/, 拷入 openwrt/package/utils/ucode/patches/ 由构建系统自动应用
+UCP=package/utils/ucode
+UDD=2026-09-10   # fbdd169e 合入日期: pin 源码日期晚于它视为已含修复
+[ -d "$UCP" ] || die "找不到 $UCP (调用位置不对? 必须在 openwrt/ 目录下运行)"
+UCDATE=$(sed -n 's/^PKG_SOURCE_DATE:=//p' $UCP/Makefile)
+[ -n "$UCDATE" ] || die "无法从 $UCP/Makefile 解析 PKG_SOURCE_DATE"
+if [ -f $UCP/patches/123-ubus-store-per-call-request-proto-in-instance-proto.patch ]; then
+	echo "SKIP: ucode 泄漏补丁已存在 (重跑幂等)"
+elif [[ "$UCDATE" < "$UDD" ]]; then
+	[ -d ../patches/ucode ] || die "找不到 ../patches/ucode (本仓库补丁目录缺失?)"
+	mkdir -p $UCP/patches
+	for p in ../patches/ucode/122-types-add-per-instance-prototype-support.patch \
+	         ../patches/ucode/123-ubus-store-per-call-request-proto-in-instance-proto.patch; do
+		[ -f "$p" ] || die "补丁文件缺失: $p"
+		cp -v "$p" $UCP/patches/
+	done
+	# 版本标识: r1 -> r2, 便于在设备上确认固件已带修复
+	sed -i 's/^PKG_RELEASE:=1$/PKG_RELEASE:=2/' $UCP/Makefile
+	grep -q '^PKG_RELEASE:=2$' $UCP/Makefile || die "PKG_RELEASE bump 失败"
+	echo "OK: ucode ubus 泄漏 backport 就位 (pin $UCDATE < $UDD, PKG_RELEASE -> 2)"
+else
+	echo "SKIP: ucode pin $UCDATE >= $UDD, 源码已含上游修复, 不打补丁"
+fi
 
 # ===== 校验 (任一失败立即退出, 不浪费编译时间) =====
 fail=0
