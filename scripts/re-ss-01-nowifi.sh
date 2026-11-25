@@ -3,7 +3,8 @@
 # 作用 1: 移除固件里的全部 WiFi 组件
 # 背景: WiFi 包在 Kconfig 里是 select 强制选中, 只改 .config 关不掉, 必须动源码
 # 移除三处:
-#   1. target/linux/qualcommax/Makefile       DEFAULT_PACKAGES: kmod-ath11k-ahb / wpad-basic-mbedtls
+#   1. target/linux/qualcommax/Makefile       DEFAULT_PACKAGES: 只删 token kmod-ath11k-ahb / wpad-basic-mbedtls
+#      注意: kmod-ath11k-ahb 与 kmod-qca-nss-dp 同行, 必须 token 级删除, 整行删会挂有线网
 #   2. target/linux/qualcommax/ipq60xx/target.mk  DEFAULT_PACKAGES: ath11k-firmware-ipq6018
 #   3. target/linux/qualcommax/image/ipq60xx.mk   Device/jdcloud_re-ss-01: ipq-wifi-jdcloud_re-ss-01
 # 传递依赖 (kmod-ath11k / kmod-mac80211 / kmod-cfg80211 / iw / wireless-regdb / hostapd-common)
@@ -25,7 +26,16 @@ die() { echo "ERROR: $1" >&2; exit 1; }
 
 # ===== 1. qualcommax target 默认包 =====
 [ "$(grep -c 'kmod-ath11k-ahb' $TMK)" = "1" ] || die "$TMK 里 kmod-ath11k-ahb 行数异常 (上游结构变了?)"
-sed -i '/kmod-ath11k-ahb/d' $TMK
+# 只删 kmod-ath11k-ahb 这个 token, 保留同行的 kmod-qca-nss-dp (6.12 有线网卡 MAC 驱动)!
+# 整行删除会把 nss-dp 一起删掉 → eth 口完全消失 → 绿灯但客户端拿不到 IP (已踩坑)
+# 6.18 (26.08/26.11) 结构不同: kmod-ath11k-ahb 独占一行, 且无 nss-dp (网卡走内核 EDMA),
+# 故先整行删独占行, 再对同行共享行做 token 级删除; NSS 校验按原文件是否含 nss-dp 条件化
+HADNSS=$(grep -c 'kmod-qca-nss-dp' $TMK || true)
+sed -i -E '/^[[:space:]]*kmod-ath11k-ahb[[:space:]]*\\[[:space:]]*$/d' $TMK
+sed -i -E 's/[[:space:]]+kmod-ath11k-ahb//g' $TMK
+if [ "$HADNSS" -gt 0 ] && ! grep -q 'kmod-qca-nss-dp' $TMK; then
+	die "kmod-qca-nss-dp 意外丢失, 有线网会挂"
+fi
 
 [ "$(grep -c 'wpad-basic-mbedtls' $TMK)" = "1" ] || die "$TMK 里 wpad-basic-mbedtls 行数异常 (上游结构变了?)"
 # wpad 与 uboot-envtools 同一行, 只删 wpad 保留 uboot-envtools
@@ -74,6 +84,11 @@ fi
 # ===== 校验 (任一失败立即退出, 不浪费编译时间) =====
 fail=0
 if grep -qE 'kmod-ath11k|wpad' $TMK; then echo "FAIL: $TMK 仍有 wifi 包"; fail=1; else echo "OK: $TMK 已无 ath11k/wpad"; fi
+if [ "$HADNSS" -gt 0 ]; then
+	if grep -q 'kmod-qca-nss-dp' $TMK; then echo "OK: kmod-qca-nss-dp (有线网卡驱动) 保留"; else echo "FAIL: kmod-qca-nss-dp 丢失 → eth 口消失, 客户端拿不到 IP"; fail=1; fi
+else
+	echo "SKIP: 本内核线无 nss-dp (6.18 网卡走内核 EDMA, 由 CONFIG_QCOM_EDMA 提供)"
+fi
 if grep -q 'ath11k' $TSUB; then echo "FAIL: $TSUB 仍有 ath11k"; fail=1; else echo "OK: $TSUB 已无 ath11k"; fi
 
 BLK=$(sed -n '/^define Device\/jdcloud_re-ss-01$/,/^endef$/p' $IMK)
